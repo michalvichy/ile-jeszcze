@@ -34,9 +34,25 @@ body {
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
+  bottom: 0;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  left: 00;
+  position: fixed;
+  right: 0;
+}
+
+.footer > ul {
+  list-style: none;
+  margin: 10px 2em;
+  text-align: center;
+}
+
+ul > li {
+  display: inline;
+}
+
+.footer a, .footer a:hover {
+  color: #777;
 }
 
 .container-narrow > hr {

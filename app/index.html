@@ -10,6 +10,7 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css">
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -26,11 +27,19 @@
 
       <div class="jumbotron">
         <div class="header">
-          <h2 class="text-muted">ile jeszcze</h2>
+          <h2 class="text-muted">ile jeszcze</h2> 
         </div>
         <h2 id='time'>Loading...</h2>
       </div>
     </div>
+
+    <footer class='footer'>
+      <ul>
+        <li>
+          <a href='https://github.com/michalvichy/ile-jeszcze' target='_blank' title='GitHub'><span class="octicon octicon-mark-github"></span></a>
+        </li>
+      </ul>
+    </footer>
 
 
     <!-- build:js(.) scripts/vendor.js -->
@@ -65,7 +74,7 @@
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/countdown-timer.js"></script>
+        <script src="scripts/counter.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>
