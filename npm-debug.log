@@ -1,0 +1,575 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'npm-sudo-fix' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'npm-sudo-fix', null ]
+5 verbose cache add name=undefined spec="npm-sudo-fix" args=["npm-sudo-fix",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'npm-sudo-fix',
+6 verbose parsed url   path: 'npm-sudo-fix',
+6 verbose parsed url   href: 'npm-sudo-fix' }
+7 silly lockFile 42a9670a-npm-sudo-fix npm-sudo-fix
+8 verbose lock npm-sudo-fix /home/mskora/.npm/42a9670a-npm-sudo-fix.lock
+9 silly lockFile 42a9670a-npm-sudo-fix npm-sudo-fix
+10 silly lockFile 42a9670a-npm-sudo-fix npm-sudo-fix
+11 verbose addNamed [ 'npm-sudo-fix', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 29ee7ec7-npm-sudo-fix npm-sudo-fix@
+14 verbose lock npm-sudo-fix@ /home/mskora/.npm/29ee7ec7-npm-sudo-fix.lock
+15 silly addNameRange { name: 'npm-sudo-fix', range: '*', hasData: false }
+16 verbose url raw npm-sudo-fix
+17 verbose url resolving [ 'https://registry.npmjs.org/', './npm-sudo-fix' ]
+18 verbose url resolved https://registry.npmjs.org/npm-sudo-fix
+19 info trying registry request attempt 1 at 14:15:44
+20 http GET https://registry.npmjs.org/npm-sudo-fix
+21 http 200 https://registry.npmjs.org/npm-sudo-fix
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Tue, 17 Feb 2015 13:15:45 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"E9JAZ4W52RPBLPHZJBSJMNVGW"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '4924',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1424178944.310197,VS0,VE722',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'npm-sudo-fix', range: '*', hasData: true }
+24 silly addNameRange versions [ 'npm-sudo-fix', [ '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+25 verbose addNamed [ 'npm-sudo-fix', '0.1.3' ]
+26 verbose addNamed [ '0.1.3', '0.1.3' ]
+27 silly lockFile 54ebc4fd-npm-sudo-fix-0-1-3 npm-sudo-fix@0.1.3
+28 verbose lock npm-sudo-fix@0.1.3 /home/mskora/.npm/54ebc4fd-npm-sudo-fix-0-1-3.lock
+29 silly lockFile aa23fd41--sudo-fix-npm-sudo-fix-0-1-3-tgz https://registry.npmjs.org/npm-sudo-fix/-/npm-sudo-fix-0.1.3.tgz
+30 verbose lock https://registry.npmjs.org/npm-sudo-fix/-/npm-sudo-fix-0.1.3.tgz /home/mskora/.npm/aa23fd41--sudo-fix-npm-sudo-fix-0-1-3-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm-sudo-fix/-/npm-sudo-fix-0.1.3.tgz',
+31 verbose addRemoteTarball   'a0cf99c943e690ac2ae420fb58cdfd6cd10fc342' ]
+32 info retry fetch attempt 1 at 14:15:45
+33 verbose fetch to= /home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/tmp.tgz
+34 http GET https://registry.npmjs.org/npm-sudo-fix/-/npm-sudo-fix-0.1.3.tgz
+35 http 200 https://registry.npmjs.org/npm-sudo-fix/-/npm-sudo-fix-0.1.3.tgz
+36 verbose tar unpack /home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/tmp.tgz
+37 silly lockFile a77e0228-45061-0-8939524858724326-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/package
+38 verbose lock tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/package /home/mskora/.npm/a77e0228-45061-0-8939524858724326-package.lock
+39 silly lockFile 3170960c-45061-0-8939524858724326-tmp-tgz tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/tmp.tgz
+40 verbose lock tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/tmp.tgz /home/mskora/.npm/3170960c-45061-0-8939524858724326-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry index.js
+45 silly gunzTarPerm extractEntry readme.md
+46 silly lockFile a77e0228-45061-0-8939524858724326-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/package
+47 silly lockFile a77e0228-45061-0-8939524858724326-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/package
+48 silly lockFile 3170960c-45061-0-8939524858724326-tmp-tgz tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/tmp.tgz
+49 silly lockFile 3170960c-45061-0-8939524858724326-tmp-tgz tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/tmp.tgz
+50 verbose tar pack [ '/home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz',
+50 verbose tar pack   '/home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/package' ]
+51 verbose tarball /home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+52 verbose folder /home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/package
+53 silly lockFile a77e0228-45061-0-8939524858724326-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/package
+54 verbose lock tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/package /home/mskora/.npm/a77e0228-45061-0-8939524858724326-package.lock
+55 silly lockFile 6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+56 verbose lock tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz /home/mskora/.npm/6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz.lock
+57 silly lockFile a77e0228-45061-0-8939524858724326-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/package
+58 silly lockFile a77e0228-45061-0-8939524858724326-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178945061-0.8939524858724326/package
+59 silly lockFile 6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+60 silly lockFile 6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+61 silly lockFile 13fb35f4-a-npm-npm-sudo-fix-0-1-3-package /home/mskora/.npm/npm-sudo-fix/0.1.3/package
+62 verbose lock /home/mskora/.npm/npm-sudo-fix/0.1.3/package /home/mskora/.npm/13fb35f4-a-npm-npm-sudo-fix-0-1-3-package.lock
+63 silly lockFile 13fb35f4-a-npm-npm-sudo-fix-0-1-3-package /home/mskora/.npm/npm-sudo-fix/0.1.3/package
+64 silly lockFile 13fb35f4-a-npm-npm-sudo-fix-0-1-3-package /home/mskora/.npm/npm-sudo-fix/0.1.3/package
+65 verbose tar unpack /home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+66 silly lockFile 7ce25ca5-a-npm-npm-sudo-fix-0-1-3-package tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package
+67 verbose lock tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package /home/mskora/.npm/7ce25ca5-a-npm-npm-sudo-fix-0-1-3-package.lock
+68 silly lockFile 6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+69 verbose lock tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz /home/mskora/.npm/6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz.lock
+70 silly gunzTarPerm modes [ '755', '644' ]
+71 silly gunzTarPerm extractEntry package.json
+72 silly gunzTarPerm extractEntry .npmignore
+73 silly gunzTarPerm extractEntry index.js
+74 silly gunzTarPerm extractEntry readme.md
+75 silly lockFile 7ce25ca5-a-npm-npm-sudo-fix-0-1-3-package tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package
+76 silly lockFile 7ce25ca5-a-npm-npm-sudo-fix-0-1-3-package tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package
+77 silly lockFile 6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+78 silly lockFile 6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+79 verbose chmod /home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz 644
+80 verbose chown /home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz [ 1000, 1000 ]
+81 silly lockFile aa23fd41--sudo-fix-npm-sudo-fix-0-1-3-tgz https://registry.npmjs.org/npm-sudo-fix/-/npm-sudo-fix-0.1.3.tgz
+82 silly lockFile aa23fd41--sudo-fix-npm-sudo-fix-0-1-3-tgz https://registry.npmjs.org/npm-sudo-fix/-/npm-sudo-fix-0.1.3.tgz
+83 silly lockFile 54ebc4fd-npm-sudo-fix-0-1-3 npm-sudo-fix@0.1.3
+84 silly lockFile 54ebc4fd-npm-sudo-fix-0-1-3 npm-sudo-fix@0.1.3
+85 silly lockFile 29ee7ec7-npm-sudo-fix npm-sudo-fix@
+86 silly lockFile 29ee7ec7-npm-sudo-fix npm-sudo-fix@
+87 silly resolved [ { name: 'npm-sudo-fix',
+87 silly resolved     version: '0.1.3',
+87 silly resolved     description: 'A simple module for fixing permissions so that you can run npm without sudo.',
+87 silly resolved     main: 'index.js',
+87 silly resolved     bin: { 'npm-sudo-fix': 'index.js' },
+87 silly resolved     repository:
+87 silly resolved      { type: 'git',
+87 silly resolved        url: 'https://github.com/danielchatfield/npm-sudo-fix.git' },
+87 silly resolved     author: { name: 'http://danielchatfield.com' },
+87 silly resolved     license: 'Artistic-2.0',
+87 silly resolved     bugs: { url: 'https://github.com/danielchatfield/npm-sudo-fix/issues' },
+87 silly resolved     dependencies: { spawny: '0.0.1' },
+87 silly resolved     readme: '# Sudo fix\n\n`npm install -g` requiring sudo? This module sets the permissions so that you don\'t need `sudo.`\n\n## Usage\n\n```\n$ sudo npm install -g npm-sudo-fix\n$ sudo npm-sudo-fix\n\n```\n\n## Warning\n\nDo not use this if you are on a shared system.\n',
+87 silly resolved     readmeFilename: 'readme.md',
+87 silly resolved     _id: 'npm-sudo-fix@0.1.3',
+87 silly resolved     dist: { shasum: '480d7154a3475b3df5ee93e092e2eee0ecc17584' },
+87 silly resolved     _from: 'npm-sudo-fix@',
+87 silly resolved     _resolved: 'https://registry.npmjs.org/npm-sudo-fix/-/npm-sudo-fix-0.1.3.tgz' } ]
+88 info install npm-sudo-fix@0.1.3 into /usr/local/lib
+89 info installOne npm-sudo-fix@0.1.3
+90 info /usr/local/lib/node_modules/npm-sudo-fix unbuild
+91 verbose tar unpack /home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+92 silly lockFile c01d3885-al-lib-node-modules-npm-sudo-fix tar:///usr/local/lib/node_modules/npm-sudo-fix
+93 verbose lock tar:///usr/local/lib/node_modules/npm-sudo-fix /home/mskora/.npm/c01d3885-al-lib-node-modules-npm-sudo-fix.lock
+94 silly lockFile 6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+95 verbose lock tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz /home/mskora/.npm/6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz.lock
+96 silly gunzTarPerm modes [ '755', '644' ]
+97 silly gunzTarPerm extractEntry package.json
+98 silly gunzTarPerm extractEntry .npmignore
+99 silly gunzTarPerm extractEntry index.js
+100 silly gunzTarPerm extractEntry readme.md
+101 silly lockFile c01d3885-al-lib-node-modules-npm-sudo-fix tar:///usr/local/lib/node_modules/npm-sudo-fix
+102 silly lockFile c01d3885-al-lib-node-modules-npm-sudo-fix tar:///usr/local/lib/node_modules/npm-sudo-fix
+103 silly lockFile 6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+104 silly lockFile 6cd5ca92-m-npm-sudo-fix-0-1-3-package-tgz tar:///home/mskora/.npm/npm-sudo-fix/0.1.3/package.tgz
+105 info preinstall npm-sudo-fix@0.1.3
+106 verbose readDependencies using package.json deps
+107 verbose readDependencies using package.json deps
+108 verbose cache add [ 'spawny@0.0.1', null ]
+109 verbose cache add name=undefined spec="spawny@0.0.1" args=["spawny@0.0.1",null]
+110 verbose parsed url { protocol: null,
+110 verbose parsed url   slashes: null,
+110 verbose parsed url   auth: null,
+110 verbose parsed url   host: null,
+110 verbose parsed url   port: null,
+110 verbose parsed url   hostname: null,
+110 verbose parsed url   hash: null,
+110 verbose parsed url   search: null,
+110 verbose parsed url   query: null,
+110 verbose parsed url   pathname: 'spawny@0.0.1',
+110 verbose parsed url   path: 'spawny@0.0.1',
+110 verbose parsed url   href: 'spawny@0.0.1' }
+111 verbose cache add name="spawny" spec="0.0.1" args=["spawny","0.0.1"]
+112 verbose parsed url { protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: null,
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: '0.0.1',
+112 verbose parsed url   path: '0.0.1',
+112 verbose parsed url   href: '0.0.1' }
+113 verbose addNamed [ 'spawny', '0.0.1' ]
+114 verbose addNamed [ '0.0.1', '0.0.1' ]
+115 silly lockFile 28f47eb2-spawny-0-0-1 spawny@0.0.1
+116 verbose lock spawny@0.0.1 /home/mskora/.npm/28f47eb2-spawny-0-0-1.lock
+117 verbose url raw spawny/0.0.1
+118 verbose url resolving [ 'https://registry.npmjs.org/', './spawny/0.0.1' ]
+119 verbose url resolved https://registry.npmjs.org/spawny/0.0.1
+120 info trying registry request attempt 1 at 14:15:45
+121 http GET https://registry.npmjs.org/spawny/0.0.1
+122 http 200 https://registry.npmjs.org/spawny/0.0.1
+123 silly registry.get cb [ 200,
+123 silly registry.get   { date: 'Tue, 17 Feb 2015 13:15:46 GMT',
+123 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+123 silly registry.get     etag: '"28ZL66T8UCNXLAPU08J5ADHC9"',
+123 silly registry.get     'content-type': 'application/json',
+123 silly registry.get     'cache-control': 'max-age=60',
+123 silly registry.get     'content-length': '2080',
+123 silly registry.get     'accept-ranges': 'bytes',
+123 silly registry.get     via: '1.1 varnish',
+123 silly registry.get     age: '0',
+123 silly registry.get     'x-served-by': 'cache-fra1237-FRA',
+123 silly registry.get     'x-cache': 'MISS',
+123 silly registry.get     'x-cache-hits': '0',
+123 silly registry.get     'x-timer': 'S1424178945.872828,VS0,VE1110',
+123 silly registry.get     vary: 'Accept',
+123 silly registry.get     'keep-alive': 'timeout=10, max=50',
+123 silly registry.get     connection: 'Keep-Alive' } ]
+124 silly lockFile 4e1f9cb0-pmjs-org-spawny-spawny-0-0-1-tgz https://registry.npmjs.org/spawny/-/spawny-0.0.1.tgz
+125 verbose lock https://registry.npmjs.org/spawny/-/spawny-0.0.1.tgz /home/mskora/.npm/4e1f9cb0-pmjs-org-spawny-spawny-0-0-1-tgz.lock
+126 verbose addRemoteTarball [ 'https://registry.npmjs.org/spawny/-/spawny-0.0.1.tgz',
+126 verbose addRemoteTarball   '0d57f23baa14644a890bb93707b5d6e05882bf52' ]
+127 info retry fetch attempt 1 at 14:15:47
+128 verbose fetch to= /home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/tmp.tgz
+129 http GET https://registry.npmjs.org/spawny/-/spawny-0.0.1.tgz
+130 http 200 https://registry.npmjs.org/spawny/-/spawny-0.0.1.tgz
+131 verbose tar unpack /home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/tmp.tgz
+132 silly lockFile 2245c56d-47009-0-5421515966299921-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/package
+133 verbose lock tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/package /home/mskora/.npm/2245c56d-47009-0-5421515966299921-package.lock
+134 silly lockFile 1900973a-47009-0-5421515966299921-tmp-tgz tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/tmp.tgz
+135 verbose lock tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/tmp.tgz /home/mskora/.npm/1900973a-47009-0-5421515966299921-tmp-tgz.lock
+136 silly gunzTarPerm modes [ '755', '644' ]
+137 silly gunzTarPerm extractEntry package.json
+138 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+139 silly gunzTarPerm extractEntry .npmignore
+140 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+141 silly gunzTarPerm extractEntry README.md
+142 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+143 silly gunzTarPerm extractEntry LICENSE
+144 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+145 silly gunzTarPerm extractEntry Gruntfile.js
+146 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 420 ]
+147 silly gunzTarPerm extractEntry .jshintrc
+148 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+149 silly gunzTarPerm extractEntry .travis.yml
+150 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+151 silly gunzTarPerm extractEntry lib/spawny.js
+152 silly gunzTarPerm modified mode [ 'lib/spawny.js', 438, 420 ]
+153 silly gunzTarPerm extractEntry test/spawny_test.js
+154 silly gunzTarPerm modified mode [ 'test/spawny_test.js', 438, 420 ]
+155 silly lockFile 2245c56d-47009-0-5421515966299921-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/package
+156 silly lockFile 2245c56d-47009-0-5421515966299921-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/package
+157 silly lockFile 1900973a-47009-0-5421515966299921-tmp-tgz tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/tmp.tgz
+158 silly lockFile 1900973a-47009-0-5421515966299921-tmp-tgz tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/tmp.tgz
+159 verbose tar pack [ '/home/mskora/.npm/spawny/0.0.1/package.tgz',
+159 verbose tar pack   '/home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/package' ]
+160 verbose tarball /home/mskora/.npm/spawny/0.0.1/package.tgz
+161 verbose folder /home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/package
+162 silly lockFile 2245c56d-47009-0-5421515966299921-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/package
+163 verbose lock tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/package /home/mskora/.npm/2245c56d-47009-0-5421515966299921-package.lock
+164 silly lockFile 75ba5011-ora-npm-spawny-0-0-1-package-tgz tar:///home/mskora/.npm/spawny/0.0.1/package.tgz
+165 verbose lock tar:///home/mskora/.npm/spawny/0.0.1/package.tgz /home/mskora/.npm/75ba5011-ora-npm-spawny-0-0-1-package-tgz.lock
+166 silly lockFile 2245c56d-47009-0-5421515966299921-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/package
+167 silly lockFile 2245c56d-47009-0-5421515966299921-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178947009-0.5421515966299921/package
+168 silly lockFile 75ba5011-ora-npm-spawny-0-0-1-package-tgz tar:///home/mskora/.npm/spawny/0.0.1/package.tgz
+169 silly lockFile 75ba5011-ora-npm-spawny-0-0-1-package-tgz tar:///home/mskora/.npm/spawny/0.0.1/package.tgz
+170 silly lockFile c62a3985--mskora-npm-spawny-0-0-1-package /home/mskora/.npm/spawny/0.0.1/package
+171 verbose lock /home/mskora/.npm/spawny/0.0.1/package /home/mskora/.npm/c62a3985--mskora-npm-spawny-0-0-1-package.lock
+172 silly lockFile c62a3985--mskora-npm-spawny-0-0-1-package /home/mskora/.npm/spawny/0.0.1/package
+173 silly lockFile c62a3985--mskora-npm-spawny-0-0-1-package /home/mskora/.npm/spawny/0.0.1/package
+174 verbose tar unpack /home/mskora/.npm/spawny/0.0.1/package.tgz
+175 silly lockFile d2cab242--mskora-npm-spawny-0-0-1-package tar:///home/mskora/.npm/spawny/0.0.1/package
+176 verbose lock tar:///home/mskora/.npm/spawny/0.0.1/package /home/mskora/.npm/d2cab242--mskora-npm-spawny-0-0-1-package.lock
+177 silly lockFile 75ba5011-ora-npm-spawny-0-0-1-package-tgz tar:///home/mskora/.npm/spawny/0.0.1/package.tgz
+178 verbose lock tar:///home/mskora/.npm/spawny/0.0.1/package.tgz /home/mskora/.npm/75ba5011-ora-npm-spawny-0-0-1-package-tgz.lock
+179 silly gunzTarPerm modes [ '755', '644' ]
+180 silly gunzTarPerm extractEntry package.json
+181 silly gunzTarPerm extractEntry .npmignore
+182 silly gunzTarPerm extractEntry README.md
+183 silly gunzTarPerm extractEntry LICENSE
+184 silly gunzTarPerm extractEntry Gruntfile.js
+185 silly gunzTarPerm extractEntry .jshintrc
+186 silly gunzTarPerm extractEntry .travis.yml
+187 silly gunzTarPerm extractEntry lib/spawny.js
+188 silly gunzTarPerm extractEntry test/spawny_test.js
+189 silly lockFile d2cab242--mskora-npm-spawny-0-0-1-package tar:///home/mskora/.npm/spawny/0.0.1/package
+190 silly lockFile d2cab242--mskora-npm-spawny-0-0-1-package tar:///home/mskora/.npm/spawny/0.0.1/package
+191 silly lockFile 75ba5011-ora-npm-spawny-0-0-1-package-tgz tar:///home/mskora/.npm/spawny/0.0.1/package.tgz
+192 silly lockFile 75ba5011-ora-npm-spawny-0-0-1-package-tgz tar:///home/mskora/.npm/spawny/0.0.1/package.tgz
+193 verbose chmod /home/mskora/.npm/spawny/0.0.1/package.tgz 644
+194 verbose chown /home/mskora/.npm/spawny/0.0.1/package.tgz [ 1000, 1000 ]
+195 silly lockFile 4e1f9cb0-pmjs-org-spawny-spawny-0-0-1-tgz https://registry.npmjs.org/spawny/-/spawny-0.0.1.tgz
+196 silly lockFile 4e1f9cb0-pmjs-org-spawny-spawny-0-0-1-tgz https://registry.npmjs.org/spawny/-/spawny-0.0.1.tgz
+197 silly lockFile 28f47eb2-spawny-0-0-1 spawny@0.0.1
+198 silly lockFile 28f47eb2-spawny-0-0-1 spawny@0.0.1
+199 silly resolved [ { name: 'spawny',
+199 silly resolved     version: '0.0.1',
+199 silly resolved     main: 'lib/spawny.js',
+199 silly resolved     description: 'A small wrapper around child_process.spawn with some helpful features.',
+199 silly resolved     homepage: 'https://github.com/danielchatfield/node-spawny',
+199 silly resolved     bugs: { url: 'https://github.com/danielchatfield/spawny/issues' },
+199 silly resolved     author:
+199 silly resolved      { name: 'Daniel Chatfield',
+199 silly resolved        email: 'chatfielddaniel@gmail.com',
+199 silly resolved        url: 'https://github.com/danielchatfield/' },
+199 silly resolved     repository:
+199 silly resolved      { type: 'git',
+199 silly resolved        url: 'https://github.com/danielchatfield/spawny' },
+199 silly resolved     licenses: [ [Object] ],
+199 silly resolved     dependencies: { cmdify: '~0.0.4' },
+199 silly resolved     devDependencies:
+199 silly resolved      { 'grunt-contrib-jshint': '~0.6.0',
+199 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+199 silly resolved        'grunt-contrib-watch': '~0.5.0' },
+199 silly resolved     readme: '# spawny [![Build Status](https://secure.travis-ci.org/danielchatfield/node-spawny.png?branch=master)](http://travis-ci.org/danielchatfield/node-spawny)\n\nA small wrapper around child_process.spawn with some helpful features.\n\n## Getting Started\nInstall the module with: `npm install spawny`\n\n```javascript\nvar spawny = require(\'spawny\');\nspawny(\'npm version patch\', true, cb);\n```\n\n## Usage\n\n### spawny(command, useCmdify, callback)\n\n#### Arguments\n\n * __command__ - The command that you would type into the terminal\n * __useCmdify__ - whether `cmdify` should be called on the command (required for some scripts to work on windows). Defaults to false.\n * callback - the callback to be called when the process terminates\n\n## Features\n\n * Pipes stdio into child process\n * Simplifies API (at cost of flexibility)\n\n\n## License\nCopyright (c) 2013 Daniel Chatfield. Licensed under the MIT license.\n',
+199 silly resolved     readmeFilename: 'README.md',
+199 silly resolved     _id: 'spawny@0.0.1',
+199 silly resolved     dist: { shasum: 'c59626e5e49306f47356c1f28e07c0f6b1f3ec63' },
+199 silly resolved     _from: 'spawny@0.0.1',
+199 silly resolved     _resolved: 'https://registry.npmjs.org/spawny/-/spawny-0.0.1.tgz' } ]
+200 info install spawny@0.0.1 into /usr/local/lib/node_modules/npm-sudo-fix
+201 info installOne spawny@0.0.1
+202 info /usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny unbuild
+203 verbose tar unpack /home/mskora/.npm/spawny/0.0.1/package.tgz
+204 silly lockFile df78c8cc-npm-sudo-fix-node-modules-spawny tar:///usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny
+205 verbose lock tar:///usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny /home/mskora/.npm/df78c8cc-npm-sudo-fix-node-modules-spawny.lock
+206 silly lockFile 75ba5011-ora-npm-spawny-0-0-1-package-tgz tar:///home/mskora/.npm/spawny/0.0.1/package.tgz
+207 verbose lock tar:///home/mskora/.npm/spawny/0.0.1/package.tgz /home/mskora/.npm/75ba5011-ora-npm-spawny-0-0-1-package-tgz.lock
+208 silly gunzTarPerm modes [ '755', '644' ]
+209 silly gunzTarPerm extractEntry package.json
+210 silly gunzTarPerm extractEntry .npmignore
+211 silly gunzTarPerm extractEntry README.md
+212 silly gunzTarPerm extractEntry LICENSE
+213 silly gunzTarPerm extractEntry Gruntfile.js
+214 silly gunzTarPerm extractEntry .jshintrc
+215 silly gunzTarPerm extractEntry .travis.yml
+216 silly gunzTarPerm extractEntry lib/spawny.js
+217 silly gunzTarPerm extractEntry test/spawny_test.js
+218 silly lockFile df78c8cc-npm-sudo-fix-node-modules-spawny tar:///usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny
+219 silly lockFile df78c8cc-npm-sudo-fix-node-modules-spawny tar:///usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny
+220 silly lockFile 75ba5011-ora-npm-spawny-0-0-1-package-tgz tar:///home/mskora/.npm/spawny/0.0.1/package.tgz
+221 silly lockFile 75ba5011-ora-npm-spawny-0-0-1-package-tgz tar:///home/mskora/.npm/spawny/0.0.1/package.tgz
+222 info preinstall spawny@0.0.1
+223 verbose readDependencies using package.json deps
+224 verbose readDependencies using package.json deps
+225 verbose cache add [ 'cmdify@~0.0.4', null ]
+226 verbose cache add name=undefined spec="cmdify@~0.0.4" args=["cmdify@~0.0.4",null]
+227 verbose parsed url { protocol: null,
+227 verbose parsed url   slashes: null,
+227 verbose parsed url   auth: null,
+227 verbose parsed url   host: null,
+227 verbose parsed url   port: null,
+227 verbose parsed url   hostname: null,
+227 verbose parsed url   hash: null,
+227 verbose parsed url   search: null,
+227 verbose parsed url   query: null,
+227 verbose parsed url   pathname: 'cmdify@~0.0.4',
+227 verbose parsed url   path: 'cmdify@~0.0.4',
+227 verbose parsed url   href: 'cmdify@~0.0.4' }
+228 verbose cache add name="cmdify" spec="~0.0.4" args=["cmdify","~0.0.4"]
+229 verbose parsed url { protocol: null,
+229 verbose parsed url   slashes: null,
+229 verbose parsed url   auth: null,
+229 verbose parsed url   host: null,
+229 verbose parsed url   port: null,
+229 verbose parsed url   hostname: null,
+229 verbose parsed url   hash: null,
+229 verbose parsed url   search: null,
+229 verbose parsed url   query: null,
+229 verbose parsed url   pathname: '~0.0.4',
+229 verbose parsed url   path: '~0.0.4',
+229 verbose parsed url   href: '~0.0.4' }
+230 verbose addNamed [ 'cmdify', '~0.0.4' ]
+231 verbose addNamed [ null, '>=0.0.4-0 <0.1.0-0' ]
+232 silly lockFile 6bfa7e7e-cmdify-0-0-4 cmdify@~0.0.4
+233 verbose lock cmdify@~0.0.4 /home/mskora/.npm/6bfa7e7e-cmdify-0-0-4.lock
+234 silly addNameRange { name: 'cmdify', range: '>=0.0.4-0 <0.1.0-0', hasData: false }
+235 verbose url raw cmdify
+236 verbose url resolving [ 'https://registry.npmjs.org/', './cmdify' ]
+237 verbose url resolved https://registry.npmjs.org/cmdify
+238 info trying registry request attempt 1 at 14:15:47
+239 http GET https://registry.npmjs.org/cmdify
+240 http 200 https://registry.npmjs.org/cmdify
+241 silly registry.get cb [ 200,
+241 silly registry.get   { date: 'Tue, 17 Feb 2015 13:15:48 GMT',
+241 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+241 silly registry.get     etag: '"48AYRXTRU5QSA2QW7NJ0Z8UFM"',
+241 silly registry.get     'content-type': 'application/json',
+241 silly registry.get     'cache-control': 'max-age=60',
+241 silly registry.get     'content-length': '4226',
+241 silly registry.get     'accept-ranges': 'bytes',
+241 silly registry.get     via: '1.1 varnish',
+241 silly registry.get     age: '0',
+241 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+241 silly registry.get     'x-cache': 'MISS',
+241 silly registry.get     'x-cache-hits': '0',
+241 silly registry.get     'x-timer': 'S1424178947.807208,VS0,VE725',
+241 silly registry.get     vary: 'Accept',
+241 silly registry.get     'keep-alive': 'timeout=10, max=50',
+241 silly registry.get     connection: 'Keep-Alive' } ]
+242 silly addNameRange number 2 { name: 'cmdify', range: '>=0.0.4-0 <0.1.0-0', hasData: true }
+243 silly addNameRange versions [ 'cmdify', [ '0.0.1', '0.0.4' ] ]
+244 verbose addNamed [ 'cmdify', '0.0.4' ]
+245 verbose addNamed [ '0.0.4', '0.0.4' ]
+246 silly lockFile e009886d-cmdify-0-0-4 cmdify@0.0.4
+247 verbose lock cmdify@0.0.4 /home/mskora/.npm/e009886d-cmdify-0-0-4.lock
+248 silly lockFile 69fb6198-pmjs-org-cmdify-cmdify-0-0-4-tgz https://registry.npmjs.org/cmdify/-/cmdify-0.0.4.tgz
+249 verbose lock https://registry.npmjs.org/cmdify/-/cmdify-0.0.4.tgz /home/mskora/.npm/69fb6198-pmjs-org-cmdify-cmdify-0-0-4-tgz.lock
+250 verbose addRemoteTarball [ 'https://registry.npmjs.org/cmdify/-/cmdify-0.0.4.tgz',
+250 verbose addRemoteTarball   '268d2a60afe026a8c33d3fbbacf0f7038c6113d2' ]
+251 info retry fetch attempt 1 at 14:15:48
+252 verbose fetch to= /home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/tmp.tgz
+253 http GET https://registry.npmjs.org/cmdify/-/cmdify-0.0.4.tgz
+254 http 200 https://registry.npmjs.org/cmdify/-/cmdify-0.0.4.tgz
+255 verbose tar unpack /home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/tmp.tgz
+256 silly lockFile 46d5a4cc-48558-0-7900710862595588-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/package
+257 verbose lock tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/package /home/mskora/.npm/46d5a4cc-48558-0-7900710862595588-package.lock
+258 silly lockFile 7e152bb1-48558-0-7900710862595588-tmp-tgz tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/tmp.tgz
+259 verbose lock tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/tmp.tgz /home/mskora/.npm/7e152bb1-48558-0-7900710862595588-tmp-tgz.lock
+260 silly gunzTarPerm modes [ '755', '644' ]
+261 silly gunzTarPerm extractEntry package.json
+262 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+263 silly gunzTarPerm extractEntry .npmignore
+264 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+265 silly gunzTarPerm extractEntry README.md
+266 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+267 silly gunzTarPerm extractEntry Gruntfile.js
+268 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 420 ]
+269 silly gunzTarPerm extractEntry .gitattributes
+270 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+271 silly gunzTarPerm extractEntry .jshintrc
+272 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+273 silly gunzTarPerm extractEntry .travis.yml
+274 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+275 silly gunzTarPerm extractEntry lib/cmdify.js
+276 silly gunzTarPerm modified mode [ 'lib/cmdify.js', 438, 420 ]
+277 silly lockFile 46d5a4cc-48558-0-7900710862595588-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/package
+278 silly lockFile 46d5a4cc-48558-0-7900710862595588-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/package
+279 silly lockFile 7e152bb1-48558-0-7900710862595588-tmp-tgz tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/tmp.tgz
+280 silly lockFile 7e152bb1-48558-0-7900710862595588-tmp-tgz tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/tmp.tgz
+281 verbose tar pack [ '/home/mskora/.npm/cmdify/0.0.4/package.tgz',
+281 verbose tar pack   '/home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/package' ]
+282 verbose tarball /home/mskora/.npm/cmdify/0.0.4/package.tgz
+283 verbose folder /home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/package
+284 silly lockFile 46d5a4cc-48558-0-7900710862595588-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/package
+285 verbose lock tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/package /home/mskora/.npm/46d5a4cc-48558-0-7900710862595588-package.lock
+286 silly lockFile c2b2b643-ora-npm-cmdify-0-0-4-package-tgz tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz
+287 verbose lock tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz /home/mskora/.npm/c2b2b643-ora-npm-cmdify-0-0-4-package-tgz.lock
+288 silly lockFile 46d5a4cc-48558-0-7900710862595588-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/package
+289 silly lockFile 46d5a4cc-48558-0-7900710862595588-package tar:///home/mskora/tmp/npm-7229-sYF53VmU/1424178948558-0.7900710862595588/package
+290 silly lockFile c2b2b643-ora-npm-cmdify-0-0-4-package-tgz tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz
+291 silly lockFile c2b2b643-ora-npm-cmdify-0-0-4-package-tgz tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz
+292 silly lockFile 0195b291--mskora-npm-cmdify-0-0-4-package /home/mskora/.npm/cmdify/0.0.4/package
+293 verbose lock /home/mskora/.npm/cmdify/0.0.4/package /home/mskora/.npm/0195b291--mskora-npm-cmdify-0-0-4-package.lock
+294 silly lockFile 0195b291--mskora-npm-cmdify-0-0-4-package /home/mskora/.npm/cmdify/0.0.4/package
+295 silly lockFile 0195b291--mskora-npm-cmdify-0-0-4-package /home/mskora/.npm/cmdify/0.0.4/package
+296 verbose tar unpack /home/mskora/.npm/cmdify/0.0.4/package.tgz
+297 silly lockFile a13f540b--mskora-npm-cmdify-0-0-4-package tar:///home/mskora/.npm/cmdify/0.0.4/package
+298 verbose lock tar:///home/mskora/.npm/cmdify/0.0.4/package /home/mskora/.npm/a13f540b--mskora-npm-cmdify-0-0-4-package.lock
+299 silly lockFile c2b2b643-ora-npm-cmdify-0-0-4-package-tgz tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz
+300 verbose lock tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz /home/mskora/.npm/c2b2b643-ora-npm-cmdify-0-0-4-package-tgz.lock
+301 silly gunzTarPerm modes [ '755', '644' ]
+302 silly gunzTarPerm extractEntry package.json
+303 silly gunzTarPerm extractEntry .npmignore
+304 silly gunzTarPerm extractEntry README.md
+305 silly gunzTarPerm extractEntry Gruntfile.js
+306 silly gunzTarPerm extractEntry .gitattributes
+307 silly gunzTarPerm extractEntry .jshintrc
+308 silly gunzTarPerm extractEntry .travis.yml
+309 silly gunzTarPerm extractEntry lib/cmdify.js
+310 silly lockFile a13f540b--mskora-npm-cmdify-0-0-4-package tar:///home/mskora/.npm/cmdify/0.0.4/package
+311 silly lockFile a13f540b--mskora-npm-cmdify-0-0-4-package tar:///home/mskora/.npm/cmdify/0.0.4/package
+312 silly lockFile c2b2b643-ora-npm-cmdify-0-0-4-package-tgz tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz
+313 silly lockFile c2b2b643-ora-npm-cmdify-0-0-4-package-tgz tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz
+314 verbose chmod /home/mskora/.npm/cmdify/0.0.4/package.tgz 644
+315 verbose chown /home/mskora/.npm/cmdify/0.0.4/package.tgz [ 1000, 1000 ]
+316 silly lockFile 69fb6198-pmjs-org-cmdify-cmdify-0-0-4-tgz https://registry.npmjs.org/cmdify/-/cmdify-0.0.4.tgz
+317 silly lockFile 69fb6198-pmjs-org-cmdify-cmdify-0-0-4-tgz https://registry.npmjs.org/cmdify/-/cmdify-0.0.4.tgz
+318 silly lockFile e009886d-cmdify-0-0-4 cmdify@0.0.4
+319 silly lockFile e009886d-cmdify-0-0-4 cmdify@0.0.4
+320 silly lockFile 6bfa7e7e-cmdify-0-0-4 cmdify@~0.0.4
+321 silly lockFile 6bfa7e7e-cmdify-0-0-4 cmdify@~0.0.4
+322 silly resolved [ { name: 'cmdify',
+322 silly resolved     version: '0.0.4',
+322 silly resolved     description: 'A small utility to help make spawning cross platform.',
+322 silly resolved     homepage: 'https://github.com/danielchatfield/node-cmdify',
+322 silly resolved     bugs: { url: 'https://github.com/danielchatfield/cmdify/issues' },
+322 silly resolved     main: 'lib/cmdify.js',
+322 silly resolved     author:
+322 silly resolved      { name: 'Daniel Chatfield',
+322 silly resolved        email: 'chatfielddaniel@gmail.com',
+322 silly resolved        url: 'https://github.com/danielchatfield/' },
+322 silly resolved     repository:
+322 silly resolved      { type: 'git',
+322 silly resolved        url: 'https://github.com/danielchatfield/cmdify' },
+322 silly resolved     licenses: [ [Object] ],
+322 silly resolved     devDependencies:
+322 silly resolved      { 'grunt-contrib-jshint': '~0.6.0',
+322 silly resolved        'grunt-contrib-watch': '~0.5.0' },
+322 silly resolved     readme: '# cmdify [![Build Status](https://secure.travis-ci.org/danielchatfield/node-cmdify.png?branch=master)](http://travis-ci.org/danielchatfield/node-cmdify)\n\nA small utility to help make spawning cross platform.\n\n## Getting Started\nInstall the module with: `npm install cmdify`\n\n```javascript\nvar cmdify = require(\'cmdify\');\n\ncmdify(\'npm version patch\') // on windows returns \'npm.cmd version patch\'\n```\n\n## License\nCopyright (c) 2013 Daniel Chatfield. Licensed under the MIT license.\n',
+322 silly resolved     readmeFilename: 'README.md',
+322 silly resolved     _id: 'cmdify@0.0.4',
+322 silly resolved     dist: { shasum: '616f22e0f129b2eff6e9d9540066676096f2b32c' },
+322 silly resolved     _from: 'cmdify@~0.0.4',
+322 silly resolved     _resolved: 'https://registry.npmjs.org/cmdify/-/cmdify-0.0.4.tgz' } ]
+323 info install cmdify@0.0.4 into /usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny
+324 info installOne cmdify@0.0.4
+325 info /usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny/node_modules/cmdify unbuild
+326 verbose tar unpack /home/mskora/.npm/cmdify/0.0.4/package.tgz
+327 silly lockFile 5c40d3a2-dules-spawny-node-modules-cmdify tar:///usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny/node_modules/cmdify
+328 verbose lock tar:///usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny/node_modules/cmdify /home/mskora/.npm/5c40d3a2-dules-spawny-node-modules-cmdify.lock
+329 silly lockFile c2b2b643-ora-npm-cmdify-0-0-4-package-tgz tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz
+330 verbose lock tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz /home/mskora/.npm/c2b2b643-ora-npm-cmdify-0-0-4-package-tgz.lock
+331 silly gunzTarPerm modes [ '755', '644' ]
+332 silly gunzTarPerm extractEntry package.json
+333 silly gunzTarPerm extractEntry .npmignore
+334 silly gunzTarPerm extractEntry README.md
+335 silly gunzTarPerm extractEntry Gruntfile.js
+336 silly gunzTarPerm extractEntry .gitattributes
+337 silly gunzTarPerm extractEntry .jshintrc
+338 silly gunzTarPerm extractEntry .travis.yml
+339 silly gunzTarPerm extractEntry lib/cmdify.js
+340 silly lockFile 5c40d3a2-dules-spawny-node-modules-cmdify tar:///usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny/node_modules/cmdify
+341 silly lockFile 5c40d3a2-dules-spawny-node-modules-cmdify tar:///usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny/node_modules/cmdify
+342 silly lockFile c2b2b643-ora-npm-cmdify-0-0-4-package-tgz tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz
+343 silly lockFile c2b2b643-ora-npm-cmdify-0-0-4-package-tgz tar:///home/mskora/.npm/cmdify/0.0.4/package.tgz
+344 info preinstall cmdify@0.0.4
+345 verbose readDependencies using package.json deps
+346 verbose readDependencies using package.json deps
+347 silly resolved []
+348 verbose about to build /usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny/node_modules/cmdify
+349 info build /usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny/node_modules/cmdify
+350 verbose linkStuff [ true,
+350 verbose linkStuff   '/usr/local/lib/node_modules',
+350 verbose linkStuff   false,
+350 verbose linkStuff   '/usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny/node_modules' ]
+351 info linkStuff cmdify@0.0.4
+352 verbose linkBins cmdify@0.0.4
+353 verbose linkMans cmdify@0.0.4
+354 verbose rebuildBundles cmdify@0.0.4
+355 info install cmdify@0.0.4
+356 info postinstall cmdify@0.0.4
+357 verbose about to build /usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny
+358 info build /usr/local/lib/node_modules/npm-sudo-fix/node_modules/spawny
+359 verbose linkStuff [ true,
+359 verbose linkStuff   '/usr/local/lib/node_modules',
+359 verbose linkStuff   false,
+359 verbose linkStuff   '/usr/local/lib/node_modules/npm-sudo-fix/node_modules' ]
+360 info linkStuff spawny@0.0.1
+361 verbose linkBins spawny@0.0.1
+362 verbose linkMans spawny@0.0.1
+363 verbose rebuildBundles spawny@0.0.1
+364 verbose rebuildBundles [ 'cmdify' ]
+365 info install spawny@0.0.1
+366 info postinstall spawny@0.0.1
+367 verbose about to build /usr/local/lib/node_modules/npm-sudo-fix
+368 info build /usr/local/lib/node_modules/npm-sudo-fix
+369 verbose linkStuff [ true,
+369 verbose linkStuff   '/usr/local/lib/node_modules',
+369 verbose linkStuff   true,
+369 verbose linkStuff   '/usr/local/lib/node_modules' ]
+370 info linkStuff npm-sudo-fix@0.1.3
+371 verbose linkBins npm-sudo-fix@0.1.3
+372 verbose link bins [ { 'npm-sudo-fix': 'index.js' }, '/usr/local/bin', true ]
+373 verbose linkMans npm-sudo-fix@0.1.3
+374 verbose rebuildBundles npm-sudo-fix@0.1.3
+375 verbose rebuildBundles [ 'spawny' ]
+376 info install npm-sudo-fix@0.1.3
+377 info postinstall npm-sudo-fix@0.1.3
+378 error peerinvalid The package yo does not satisfy its siblings' peerDependencies requirements!
+378 error peerinvalid Peer generator-angular@0.10.0 wants yo@>=1.0.0
+378 error peerinvalid Peer generator-karma@0.8.3 wants yo@>=1.0.0
+378 error peerinvalid Peer generator-mocha@0.1.6 wants yo@>=1.0.0
+378 error peerinvalid Peer generator-webapp@0.5.1 wants yo@>=1.2.0
+379 error System Linux 3.13.0-45-generic
+380 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "npm-sudo-fix"
+381 error cwd /home/mskora/workspace/ile-jeszcze
+382 error node -v v0.10.25
+383 error npm -v 1.3.10
+384 error code EPEERINVALID
+385 verbose exit [ 1, true ]
