@@ -12,7 +12,7 @@
 	var done = today - proposal;
 
 	var progress = (done * 100) / all;
-	var width = progress.toFixed(2) + '%'
+	var width = progress.toFixed(2) + '%';
 
 	$('.progress-bar').css('width', width);
 	$('.progress-bar > span').html(width + ' Completed');
