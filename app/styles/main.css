@@ -22,7 +22,7 @@ div {
   color: rgba(250, 240, 240, .75);
   height: 20vmin;
   text-align: center;
-  text-shadow: 1px 1px 4px darkred;
+  text-shadow: 1px 1px 4px #050b2a;
   width: 100%;
 }
 
@@ -31,7 +31,7 @@ div {
 }
 
 #time {
-  font-size: 3.5em;
+  font-size: 4em;
 }
 
 
@@ -78,7 +78,7 @@ li img {
 
 
 /* Responsive: Portrait tablets and up */
-@media (max-width: 440px) {
+@media (max-width: 495px) {
   .progress { 
     margin: 4em auto;
     width: 75%;
