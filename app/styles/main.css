@@ -60,6 +60,10 @@ ul > li {
   display: inline;
 }
 
+li img {
+  width: 1.8em;
+}
+
 .footer a, .footer a:hover {
   color: #777;
 }
