@@ -4,8 +4,8 @@
 	var counter = new Counter('10 Sep 2016 13:00');
 	counter.countdown();
 
-	var proposal = new Date('6 aug 2014').getTime();
-	var wedding = new Date('10 sep 2016').getTime();
+	var proposal = new Date('6 aug 2014 19:00').getTime();
+	var wedding = new Date('10 sep 2016 13:00').getTime();
 	var today = new Date().getTime();
 
 	var all = wedding - proposal;
