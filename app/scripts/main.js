@@ -2,7 +2,7 @@
 
 (function(){
 	var counter = new Counter('10 Sep 2016 13:00');
-	counter.countdown('time');
+	counter.countdown();
 
 	var proposal = new Date('6 aug 2014').getTime();
 	var wedding = new Date('20 sep 2016').getTime();
