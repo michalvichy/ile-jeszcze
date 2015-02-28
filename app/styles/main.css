@@ -18,26 +18,38 @@ html, body {
   width: 100%;
 }
 
-div {
+.title, .timer {
   color: rgba(250, 240, 240, .75);
   height: 20vmin;
+  margin: auto;
+  position: relative;
   text-align: center;
   text-shadow: 1px 1px 4px #050b2a;
-  width: 100%;
+  width: 50%;
 }
 
-.title {
-  margin-top: 20vh;
+.title { margin-top: 20vh; }
+.timer { visibility: hidden; }
+
+/* Days, hours etc. */
+#days, #hours, #minutes, #seconds {
+  font-size: 4rem;
 }
 
-#time {
-  font-size: 4em;
+#hours:before, #minutes:before, #seconds:before {
+  content: ':';
+  margin-right: 48%;
+  position: absolute;
+  right: 48%;
 }
 
-
-#time > img {
-  margin-top: -113px;
+span#time {
+  position: absolute;
+  z-index: 1;
+  top: 33%;
+  left: 33%;
 }
+
 
 /* Progress bar */
 .progress {
@@ -64,13 +76,9 @@ div {
   text-shadow: none;
 }
 
-ul > li {
-  display: inline;
-}
+ul > li { display: inline; }
 
-li img {
-  width: 1.8em;
-}
+li img { width: 1.8em; }
 
 .footer a, .footer a:hover {
   color: #777;
@@ -78,10 +86,17 @@ li img {
 
 
 /* Responsive: Portrait tablets and up */
-@media (max-width: 495px) {
-  .progress { 
+@media (max-width: 780px) {
+  .progress {
     margin: 4em auto;
     width: 75%;
   }
-  #time { font-size: 2.9em; }
+  .timer, .title { width: 75% }
+
+  #days, #hours, #minutes, #seconds { font-size: 2.9rem; }
+
+  #hours:before, #minutes:before, #seconds:before {
+    margin-right: 45%;
+    right: 45%
+  }
 }
