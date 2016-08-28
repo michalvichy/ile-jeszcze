@@ -1,7 +1,7 @@
 'use strict';
 
 (function(){
-	var counter = new Counter('10 Sep 2016 13:00');
+	var counter = new Counter('10 Sep 2016 14:00');
 	counter.countdown();
 
 	var proposal = new Date('6 aug 2014 19:00').getTime();
