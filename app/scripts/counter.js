@@ -32,7 +32,7 @@ Counter.prototype.countdown = function() {
     time.seconds = parseInt(remainingTime % 60);
 
     ['days', 'hours', 'minutes', 'seconds'].map(function(entry) {
-      $('#'+entry).html(addZero(time[entry]));
+      $('#'+entry).html(addZero(Math.abs(time[entry])));
     });
   }, 1000);
 };
